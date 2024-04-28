@@ -1,0 +1,9 @@
+//图书管理控制类
+class SetBookCtrl 
+{
+    BookInfo mio = new BookInfo();
+    boolean saveBookInfo(Book m) 
+{//调用实体类方法，保存图书修改信息，修改成功返回true，修改失败返回false
+    return smo.saveBook(Book m);
+}
+}
