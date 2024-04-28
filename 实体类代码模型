@@ -1,0 +1,8 @@
+//图书信息类
+class BookInfo 
+{
+    BookInfo(){//构造函数}
+    boolean saveBook(Book m)
+    {//保存修改信息
+}
+}
