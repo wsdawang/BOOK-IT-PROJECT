@@ -1,0 +1,14 @@
+//图书信息页面
+Class BookReleasePage 
+{
+    Boolean saveResult;
+    void displayPage(){//显示图书信息页面}
+ 
+    void saveBookInfo（Book m） //保存图书修改信息
+{  //调用控制类方法，保存图书修改信息
+    SetBookCtrl smc = new SetBookCtrl();
+    saveResult = smc.saveBookInfo(Book m);
+}
+boolean checkBookInfo(Book m) //检查修改信息
+    {//检查信息修改是否合法}
+}
